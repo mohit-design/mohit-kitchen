@@ -1,0 +1,134 @@
+@media only screen and (max-width: 767px) {
+
+/*------- Common CSS Starts -------*/
+
+body.active { overflow: hidden; }
+.container-fluid { padding: 30px 15px; }
+.display-block-mobile { display: block; }
+.display-none-mobile { display: none; }
+.section-heading > h2 { font-size: 4rem; line-height: 1.5; margin-bottom: 50px; }
+.read-more > a { padding: 10px 25px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Starts -------*/
+
+.bg-logo-burger-menu-mobile { background-color: #000000; display: block; left: 0; padding: 5px 15px; position: fixed; top: 0; width: 100%; z-index: 10; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > p { color: #bc906b; font: 3rem/1.2 "Birds-of-Paradise"; padding-top: 5px; }
+.header-logo-mobile > a > p > span { color: #ffffff; }
+
+    /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 50px; position: relative; width: 50px; }
+.burger-menu span { background-color: #bc906b; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; width: 25px; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #bc906b; content: ""; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 25px; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; -webkit-transition: 0s linear; -moz-transition: 0s linear; -ms-transition: 0s linear; -o-transition: 0s linear; transition: 0s linear; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Ends -------*/
+
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background-color: #000000; bottom: 0; display: block; height: 100%; left: 0; position: fixed; right: 0; top: 0; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 9; }
+.fixed-navbar-menu-mobile.active { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.menu-listing-mobile { left: 50%; opacity: 0; position: absolute; top: 40%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; visibility: hidden; z-index: 9; }
+.menu-listing-mobile.active { opacity: 1; top: 50%; visibility: visible; -webkit-transition: 1s ease 0.75s; -moz-transition: 1s ease 0.75s; -ms-transition: 1s ease 0.75s; -o-transition: 1s ease 0.75s; transition: 1s ease 0.75s; }
+.menu-listing-mobile > li { display: block; margin-bottom: 30px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li > a { color: #ffffff; display: block; font: 2.4rem/1 "Quicksand-Regular"; text-align: center; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #bc906b; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+
+  /*------- Desktop Logo and Navigationbar Menu Section Starts -------*/
+
+.bg-logo-navbar-menu-desktop { display: none; }
+
+  /*------- Desktop Logo and Navigationbar Menu Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.banner-info { padding: 30px 30px 45px; width: 85%; }
+.banner-info > h1 > span { font-size: 4rem; }
+.banner-info > h4 { font-size: 1.6rem; }
+.read-more-banner > a { font-size: 1.4rem; padding: 10px 15px; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.bg-about { padding: 15px 15px 30px; }
+.box-about-image-2 > img,
+.about-info > p { margin-bottom: 30px; }
+.about-info > p { text-align: justify; }
+.view-more-about,
+.view-more-gallery { margin: 30px 0 0; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Our Services Section Starts -------*/
+
+.bg-our-services { padding: 30px 15px 0; }
+.box-our-services-image > img { margin-bottom: 30px; }
+.box-services-info { padding: 0 0 30px; }
+.box-services-info > img { margin-bottom: 30px; }
+.box-services-info > h3 { font-size: 3rem; }
+
+  /*------- Our Services Section Ends -------*/
+
+  /*------- Our Menu Section Starts -------*/
+
+.bg-our-menu { padding: 0 15px 30px; }
+.media-our-menu { -webkit-align-items: flex-start; align-items: flex-start; }
+.media-body-our-menu > h4 { margin-bottom: 15px; }
+
+  /*------- Our Menu Section Ends -------*/
+
+  /*------- Special Occasions Section Starts -------*/
+
+.bg-special-occasions { height: 75vh; }
+.special-occasions-info { padding: 20px; width: 90%; }
+.special-occasions-info > h3 { font-size: 1.8rem; margin-bottom: 20px; }
+.special-occasions-info > h2 { font-size: 4rem; margin-bottom: 20px; }
+
+  /*------- Special Occasions Section Ends -------*/
+
+  /*------- Our Gallery Section Starts -------*/
+
+.box-our-gallery { margin-bottom: 30px; }
+.view-more-gallery { margin: 30px 0 0; }
+
+  /*------- Our Gallery Section Ends -------*/
+
+  /*------- Our Experienced Chefs Section Starts -------*/
+
+.bg-our-experienced-chefs { margin-bottom: 0; }
+.box-our-chef { margin-bottom: 15px; }
+.view-more-chefs { margin: 30px 0; }
+
+  /*------- Our Experienced Chefs Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.bg-footer { position: static; }
+.footer-logo > a > p { font-size: 4rem; }
+.footer-desc > p { margin: 0 auto 30px; width: 100%; }
+.footer-heading > h3 { font-size: 3rem; }
+.footer-contact-listing > li:last-child,
+.footer-social-listing { margin-bottom: 30px; }
+.copyright-info > p { font-size: 1.4rem; line-height: 1.7; margin-top: 15px; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+}
