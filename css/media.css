@@ -68,7 +68,7 @@ body.active { overflow: hidden; }
 
 .bg-about { padding: 15px 15px 30px; }
 .box-about-image-2 > img,
-.about-info > p { margin-bottom: 30px; }
+.about-info > p { margin-bottom: 15px; }
 .about-info > p { text-align: justify; }
 .view-more-about,
 .view-more-gallery { margin: 30px 0 0; }
@@ -104,7 +104,7 @@ body.active { overflow: hidden; }
 
   /*------- Our Gallery Section Starts -------*/
 
-.box-our-gallery { margin-bottom: 30px; }
+.box-our-gallery { margin-bottom: 15px; }
 .view-more-gallery { margin: 30px 0 0; }
 
   /*------- Our Gallery Section Ends -------*/
