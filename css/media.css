@@ -37,8 +37,8 @@ body.active { overflow: hidden; }
 
   /*------- Mobile Navbar Menu Section Starts -------*/
 
-.fixed-navbar-menu-mobile { background-color: #000000; bottom: 0; display: block; height: 100%; left: 0; position: fixed; right: 0; top: 0; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 9; }
-.fixed-navbar-menu-mobile.active { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.fixed-navbar-menu-mobile { background-color: #000000; display: block; height: 0; left: 0; position: fixed; top: 60px; -webkit-transition: 1s ease 0.5s; -moz-transition: 1s ease 0.5s; -ms-transition: 1s ease 0.5s; -o-transition: 1s ease 0.5s; transition: 1s ease 0.5s; width: 100%; z-index: 10; }
+.fixed-navbar-menu-mobile.active { height: calc(100% - 60px); -webkit-transition: 1s ease 0s; -moz-transition: 1s ease 0s; -ms-transition: 1s ease 0s; -o-transition: 1s ease 0s; transition: 1s ease 0s; }
 .menu-listing-mobile { left: 50%; opacity: 0; position: absolute; top: 40%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; visibility: hidden; z-index: 9; }
 .menu-listing-mobile.active { opacity: 1; top: 50%; visibility: visible; -webkit-transition: 1s ease 0.75s; -moz-transition: 1s ease 0.75s; -ms-transition: 1s ease 0.75s; -o-transition: 1s ease 0.75s; transition: 1s ease 0.75s; }
 .menu-listing-mobile > li { display: block; margin-bottom: 30px; }
@@ -130,5 +130,55 @@ body.active { overflow: hidden; }
   /*------- Footer Section Ends -------*/
 
 /*------- Home Page Ends -------*/
+
+/*------- About Page Starts -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner-inner-page { padding: 0; }
+.banner-info-inner-page { text-align: center; width: 75%; }
+.banner-info-inner-page > h1 { font-size: 4rem; margin-top: 0; }
+.black-pattern-down-arrow { bottom: 0; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Information Section Starts -------*/
+
+.bg-about-info-ap { padding: 30px 15px 0; }
+.about-info-ap > p { font-size: 5rem; margin-bottom: 30px; }
+.about-image-info-ap { padding: 30px 0; }
+
+  /*------- Information Section Ends -------*/
+
+  /*------- Testimonials Slider Section Starts -------*/
+
+.bg-testimonials-ap { margin-bottom: 0; padding: 0 15px 45px; }
+
+    /*------- Slick Slider Arrows CSS Starts -------*/
+
+.testimonials-slick-slider-ap.slick-dotted.slick-slider { margin-bottom: 0; } 
+.testimonials-slick-slider-ap .slick-dots { bottom: -30px; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 100%; }
+.testimonials-slick-slider-ap .slick-dots li { cursor: pointer; display: inline-block; height: auto; margin: 0 5px; padding: 0; position: relative; width: auto; }
+.testimonials-slick-slider-ap .slick-dots li button { background-color: #2f2a64; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; height: 12px; line-height: 12px; margin: 0; opacity: 0.5; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; width: 12px; }
+.testimonials-slick-slider-ap .slick-dots li.slick-active button { border-radius: 27px; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px;	opacity: 1; width: 27px; }
+.testimonials-slick-slider-ap .slick-dots li button::before { content: ''; }
+
+    /*------- Slick Slider Arrows CSS Ends -------*/
+
+  /*------- Testimonials Slider Section Ends -------*/
+
+/*------- About Page Ends -------*/
+
+/*------- Our Gallery Page Starts -------*/
+
+  /*------- Our Gallery Section Starts -------*/
+
+.bg-gallery-gp { margin-bottom: 0; padding: 30px 15px 15px; }
+.box-gallery-gp { margin-bottom: 15px; height: 50vh; }
+.box-gallery-gp:last-child { margin-bottom: 0; }
+
+  /*------- Our Gallery Section Ends -------*/
+
+/*------- Our Gallery Page Ends -------*/
 
 }
