@@ -181,7 +181,8 @@ body.active { overflow: hidden; }
 .our-chefs-hd-ocp { margin-bottom: 15px; }
 .our-chefs-hd-ocp { -webkit-transform: none !important; -moz-transform: none !important; -ms-transform: none !important; -o-transform: none !important; transform: none !important; }
 .our-chefs-left-hd-ocp { margin-left: 0; }
-.our-chefs-right-hd-ocp { margin-right: 0; }
+.our-chefs-right-hd-ocp { margin-right: 0; text-align: left; }
+.our-chefs-right-hd-ocp > h2 > span { left: 0; right: auto; }
 
   /*------- Our Experienced Chefs Section Ends -------*/
 
