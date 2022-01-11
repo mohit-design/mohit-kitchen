@@ -125,6 +125,10 @@ body.active { overflow: hidden; }
 .footer-heading > h3 { font-size: 3rem; }
 .footer-contact-listing > li:last-child,
 .footer-social-listing { margin-bottom: 30px; }
+.footer-social-listing > li { margin-right: 20px; }
+.footer-contact-listing > li:first-child::before,
+.footer-contact-listing > li:nth-child(2)::before,
+.footer-contact-listing > li:nth-child(3)::before { top: 2px; }
 .copyright-info > p { font-size: 1.4rem; line-height: 1.7; margin-top: 15px; }
 
   /*------- Footer Section Ends -------*/
@@ -189,6 +193,17 @@ body.active { overflow: hidden; }
 
 /*------- Our Chefs Page Ends -------*/
 
+/*------- Our Menu Page Starts -------*/
+
+  /*------- Our Menu Section Starts -------*/
+
+.bg-our-menu-omp { margin-bottom: 0; padding: 30px 15px 0; }
+.box-our-menu { margin-bottom: 15px; }
+
+  /*------- Our Menu Section Ends -------*/
+
+/*------- Our Menu Page Ends -------*/
+
 /*------- Our Gallery Page Starts -------*/
 
   /*------- Our Gallery Section Starts -------*/
@@ -200,5 +215,37 @@ body.active { overflow: hidden; }
   /*------- Our Gallery Section Ends -------*/
 
 /*------- Our Gallery Page Ends -------*/
+
+/*------- Shop Page Starts -------*/
+
+  /*------- Shop Section Starts -------*/
+
+.bg-shop-sp { margin-bottom: 0; padding: 30px 15px 15px; }
+.all-shop-items-sp > h2 { font-size: 4rem; margin-bottom: 30px; }
+.box-shop-image-info-sp { margin-bottom: 15px; }
+.pagination-listing-sp { display: block; margin-top: 0; }
+.pagination-listing-sp > li { display: block; margin: 0 0 10px 0; }
+.pagination-listing-sp > li:last-child { margin-bottom: 0; }
+
+  /*------- Shop Section Ends -------*/
+  
+/*------- Shop Page Ends -------*/
+
+/*------- Shop - Product Page Starts -------*/
+
+  /*------- Shop - Product Section Starts -------*/
+
+.bg-shop-product-spp { margin-bottom: 0; }
+.shop-product-image-spp > img { margin-bottom: 15px; }
+.box-shop-product-info-spp > h2 { font-size: 4rem; margin-bottom: 15px; }
+.ratings-listing-spp,
+.box-shop-product-info-spp > p { margin-bottom: 15px; }
+.box-comments-heading-spp > h2 { font-size: 4rem; }
+.media-comment-spp { margin-bottom: 15px; padding-bottom: 15px; }
+.media-left-comment-spp > img { height: 70px; }
+
+  /*------- Shop - Product Section Ends -------*/
+
+/*------- Shop - Product Page Ends -------*/
 
 }
