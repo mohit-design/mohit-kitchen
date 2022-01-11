@@ -145,6 +145,7 @@ body.active { overflow: hidden; }
   /*------- Information Section Starts -------*/
 
 .bg-about-info-ap { padding: 30px 15px 0; }
+.about-info-ap > h3 { font-size: 1.8rem; margin-bottom: 15px; }
 .about-info-ap > p { font-size: 5rem; margin-bottom: 30px; }
 .about-image-info-ap { padding: 30px 0; }
 
@@ -159,8 +160,8 @@ body.active { overflow: hidden; }
 .testimonials-slick-slider-ap.slick-dotted.slick-slider { margin-bottom: 0; } 
 .testimonials-slick-slider-ap .slick-dots { bottom: -30px; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 100%; }
 .testimonials-slick-slider-ap .slick-dots li { cursor: pointer; display: inline-block; height: auto; margin: 0 5px; padding: 0; position: relative; width: auto; }
-.testimonials-slick-slider-ap .slick-dots li button { background-color: #2f2a64; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; height: 12px; line-height: 12px; margin: 0; opacity: 0.5; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; width: 12px; }
-.testimonials-slick-slider-ap .slick-dots li.slick-active button { border-radius: 27px; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px;	opacity: 1; width: 27px; }
+.testimonials-slick-slider-ap .slick-dots li button { background-color: #bc906b; height: 12px; line-height: 12px; margin: 0; opacity: 0.5; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; width: 12px; }
+.testimonials-slick-slider-ap .slick-dots li.slick-active button { opacity: 1; width: 27px; }
 .testimonials-slick-slider-ap .slick-dots li button::before { content: ''; }
 
     /*------- Slick Slider Arrows CSS Ends -------*/
@@ -168,6 +169,23 @@ body.active { overflow: hidden; }
   /*------- Testimonials Slider Section Ends -------*/
 
 /*------- About Page Ends -------*/
+
+/*------- Our Chefs Page Starts -------*/
+
+  /*------- Our Experienced Chefs Section Starts -------*/
+
+.our-chefs-info-ocp > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.our-chefs-info-ocp > p { font-size: 5rem; margin-bottom: 30px; }
+.our-chefs-hd-ocp > h2,
+.our-chefs-image-ocp,
+.our-chefs-hd-ocp { margin-bottom: 15px; }
+.our-chefs-hd-ocp { -webkit-transform: none !important; -moz-transform: none !important; -ms-transform: none !important; -o-transform: none !important; transform: none !important; }
+.our-chefs-left-hd-ocp { margin-left: 0; }
+.our-chefs-right-hd-ocp { margin-right: 0; }
+
+  /*------- Our Experienced Chefs Section Ends -------*/
+
+/*------- Our Chefs Page Ends -------*/
 
 /*------- Our Gallery Page Starts -------*/
 
