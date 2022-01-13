@@ -281,9 +281,11 @@ textarea.form-control-comment { margin-bottom: 15px; }
 .btn-apply-coupon { margin: 15px 0 0 0; width: 100%; }
 .btn-update-cart { width: 100%; }
 .box-shop-cart-totals-scp > h4 { font-size: 2.4rem; margin-bottom: 15px; }
+.table-shop-cart-totals > tbody > tr > td:first-child { font-family: "Quicksand-SemiBold"; }
 .table-shop-cart-totals > tbody > tr > td:last-child { text-align: left; }
 .table-shop-cart-totals > tbody > tr:nth-last-of-type(2) > td { font-size: 1.8rem; }
-.btn-proceed-to-checkout { height: auto; white-space: break-spaces; }
+.btn-proceed-to-checkout { background-color: #bc906b; color: #0a0a0a; height: auto; white-space: break-spaces; }
+.btn-proceed-to-checkout:hover { background-color: #ffffff; }
 .box-shop-cart-totals-scp,
 .table-shop-cart-totals > tbody > tr:last-child > td { padding: 15px; }
 
