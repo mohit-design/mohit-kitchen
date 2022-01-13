@@ -413,7 +413,8 @@ textarea.form-control-comment::-ms-input-placeholder { color: #b7b7b7; }
 .step-wizard-listing > li.procedure-completed,
 .step-wizard-listing > li.active { color: #bc906b; }
 .box-table-shop-cart-scp { background-color: #0a0a0a; margin-bottom: 50px; padding: 50px; }
-.table-shop-cart-scp { margin-bottom: 0; table-layout: fixed; width: 100%; }
+.table-shop-cart-scp,
+.table-shop-cart-totals { margin-bottom: 0; table-layout: fixed; width: 100%; }
 .table-shop-cart-scp > thead > tr > th,
 .table-shop-checkout-scpp > thead > tr > th { background-color: #101010; border: 1px solid #171717; border-bottom: 0; color: #b7b7b7; font: 1.8rem/1.2 "Quicksand-Regular"; padding: 15px; text-transform: uppercase; }
 .table-shop-cart-scp > thead:first-child > tr:first-child > th,
@@ -425,8 +426,8 @@ textarea.form-control-comment::-ms-input-placeholder { color: #b7b7b7; }
 .quantity-scp > input { color: #b7b7b7; font: 1.8rem/1.2 "Quicksand-Regular"; margin-right: 15px; text-align: center; width: 40px; }
 .quantity-scp > input[readonly] { background-color: #1b1b1b; border: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
 .quantity-scp > span:last-child { margin-right: 0; }
-.shop-cart-image-info-scp > p { color: #b7b7b7; font-family: "Quicksand-Regular"; }
-.form-control-coupon-code { background-color: #000000; color: #b7b7b7; }
+.form-control-coupon-code { background-color: transparent; border: 1px solid #171717; color: #b7b7b7; }
+.form-control-coupon-code:focus { border: 1px solid #171717; }
 .form-control-coupon-code::placeholder { color: #b7b7b7; opacity: 1; }
 .form-control-coupon-code:-ms-input-placeholder { color: #b7b7b7; }
 .form-control-coupon-code::-ms-input-placeholder { color: #b7b7b7; }

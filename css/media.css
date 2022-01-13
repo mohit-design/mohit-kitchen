@@ -253,16 +253,39 @@ textarea.form-control-comment { margin-bottom: 15px; }
 
   /*------- Shop Cart Section Starts -------*/
 
-.bg-shop-cart-scp { margin-bottom: 0; }
+.bg-shop-cart-scp { margin-bottom: 0; padding: 30px 15px 15px; }
+.step-wizard-listing { margin-bottom: 15px; }
+.step-wizard-listing > li { font-size: 1rem; padding-top: 80px; width: 32%; }
+.step-wizard-listing > li::before { font-size: 1.6rem; height: 40px; line-height: 40px; width: 40px; }
 .box-table-shop-cart-scp { margin-bottom: 15px; padding: 15px; }
 .shop-cart-image-scp > img { width: 100px; }
-.table-responsive-shop-cart-scp { border: 0; margin-bottom: 0; }
-.table-shop-cart-scp { border: 0; }
-.table-shop-cart-scp thead { border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
-.table-shop-cart-scp tr { display: block; margin-bottom: 15px; }
-.table-shop-cart-scp tr:last-child { margin-bottom: 0; }
-.table-shop-cart-scp td { display: block; }
-.table-shop-cart-scp td::before { content: attr(data-label); float: left; font-weight: bold; text-transform: uppercase; }
+.table-responsive-shop-cart-scp,
+.table-responsive-shop-cart-totals { border: 0; margin-bottom: 0; }
+.table-shop-cart-scp,
+.table-shop-cart-totals { border: 0; }
+.table-shop-cart-scp thead,
+.table-shop-cart-totals thead { border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.table-shop-cart-scp tr,
+.table-shop-cart-totals tr { display: block; margin-bottom: 15px; }
+.table-shop-cart-scp tr:last-child,
+.table-shop-cart-totals tr:last-child { margin-bottom: 0; }
+.table-shop-cart-scp td,
+.table-shop-cart-totals td { display: block; }
+.table-shop-cart-scp td::before,
+.table-shop-cart-totals td::before { content: attr(data-label); float: left; font-weight: bold; text-transform: uppercase; }
+.table-shop-cart-scp > tbody > tr > td,
+.table-shop-checkout-scpp > tbody > tr > td,
+.table-shop-cart-totals > tbody > tr > td,
+.quantity-scp { border: 1px solid #444444; }
+.quantity-scp > input[readonly] { background-color: #444444; }
+.btn-apply-coupon { margin: 15px 0 0 0; width: 100%; }
+.btn-update-cart { width: 100%; }
+.box-shop-cart-totals-scp > h4 { font-size: 2.4rem; margin-bottom: 15px; }
+.table-shop-cart-totals > tbody > tr > td:last-child { text-align: left; }
+.table-shop-cart-totals > tbody > tr:nth-last-of-type(2) > td { font-size: 1.8rem; }
+.btn-proceed-to-checkout { height: auto; white-space: break-spaces; }
+.box-shop-cart-totals-scp,
+.table-shop-cart-totals > tbody > tr:last-child > td { padding: 15px; }
 
   /*------- Shop Cart Section Ends -------*/
 
