@@ -413,13 +413,13 @@ textarea.form-control-comment::-ms-input-placeholder { color: #b7b7b7; }
 .step-wizard-listing > li.procedure-completed,
 .step-wizard-listing > li.active { color: #bc906b; }
 .box-table-shop-cart-scp { background-color: #0a0a0a; margin-bottom: 50px; padding: 50px; }
-.table-shop-cart-scp { margin-bottom: 0; }
+.table-shop-cart-scp { margin-bottom: 0; table-layout: fixed; width: 100%; }
 .table-shop-cart-scp > thead > tr > th,
 .table-shop-checkout-scpp > thead > tr > th { background-color: #101010; border: 1px solid #171717; border-bottom: 0; color: #b7b7b7; font: 1.8rem/1.2 "Quicksand-Regular"; padding: 15px; text-transform: uppercase; }
 .table-shop-cart-scp > thead:first-child > tr:first-child > th,
 .table-shop-checkout-scpp > thead:first-child > tr:first-child > th { border-top: 1px solid #171717; }
 .table-shop-cart-scp > tbody > tr > td,
-.table-shop-checkout-scpp > tbody > tr > td { border: 1px solid #171717; border-top: 1px solid #171717; color: #b7b7b7; font: 1.8rem/1.2 "Quicksand-Regular"; padding: 15px; vertical-align: middle; }
+.table-shop-checkout-scpp > tbody > tr > td { border: 1px solid #171717; color: #b7b7b7; font: 1.8rem/1.2 "Quicksand-Regular"; padding: 15px; vertical-align: middle; }
 .quantity-scp { -webkit-align-items: center; align-items: center; border: 1px solid #1b1b1b; display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; padding: 0 15px; }
 .quantity-scp > span { color: #b7b7b7; margin-right: 15px; }
 .quantity-scp > input { color: #b7b7b7; font: 1.8rem/1.2 "Quicksand-Regular"; margin-right: 15px; text-align: center; width: 40px; }

@@ -253,7 +253,16 @@ textarea.form-control-comment { margin-bottom: 15px; }
 
   /*------- Shop Cart Section Starts -------*/
 
-
+.bg-shop-cart-scp { margin-bottom: 0; }
+.box-table-shop-cart-scp { margin-bottom: 15px; padding: 15px; }
+.shop-cart-image-scp > img { width: 100px; }
+.table-responsive-shop-cart-scp { border: 0; margin-bottom: 0; }
+.table-shop-cart-scp { border: 0; }
+.table-shop-cart-scp thead { border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.table-shop-cart-scp tr { display: block; margin-bottom: 15px; }
+.table-shop-cart-scp tr:last-child { margin-bottom: 0; }
+.table-shop-cart-scp td { display: block; }
+.table-shop-cart-scp td::before { content: attr(data-label); float: left; font-weight: bold; text-transform: uppercase; }
 
   /*------- Shop Cart Section Ends -------*/
 
