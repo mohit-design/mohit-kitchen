@@ -449,9 +449,8 @@ textarea.form-control-comment::-ms-input-placeholder { color: #b7b7b7; }
 .box-shop-cart-totals-scp { background-color: #0a0a0a; padding: 30px; }
 .box-shop-cart-totals-scp > h4 { background-color: #000000; color: #bc906b; font: 3rem/1.2 "Quicksand-SemiBold"; margin-bottom: 30px; padding: 10px 15px; text-align: center; text-transform: uppercase; }
 .table-shop-cart-totals { margin-bottom: 0; }
-.table-shop-cart-totals > tbody > tr > td { border-top: 0; color: #b7b7b7; font: 1.8rem/1.2 "Quicksand-Regular"; padding: 15px; }
-.table-shop-cart-totals > tbody > tr > td:last-child { text-align: right; }
-.table-shop-cart-totals > tbody > tr:nth-last-of-type(2) > td { color: #bc906b; font: 2.4rem/1.2 "Quicksand-Medium"; padding: 15px; text-transform: uppercase; }
+.table-shop-cart-totals > tbody > tr > td { border-top: 0; color: #bc906b; font: 1.8rem/1.2 "Quicksand-Regular"; padding: 15px; }
+.table-shop-cart-totals > tbody > tr > td:last-child { color: #b7b7b7; text-align: right; }
 .btn-proceed-to-checkout,
 .btn-proceed-to-payment { display: block; width: 100%; }
 .table-shop-cart-totals > tbody > tr:last-child > td { padding: 15px 15px 0; }
