@@ -37,11 +37,11 @@ body.active { overflow: hidden; }
 
   /*------- Mobile Navbar Menu Section Starts -------*/
 
-.fixed-navbar-menu-mobile { background-color: #000000; display: block; height: 100%; left: 0; position: fixed; top: 0; -webkit-transition: 1s ease 0.5s; -moz-transition: 1s ease 0.5s; -ms-transition: 1s ease 0.5s; -o-transition: 1s ease 0.5s; transition: 1s ease 0.5s; width: 0; z-index: 10; }
+.fixed-navbar-menu-mobile { background-color: #000000; display: block; height: calc(100% - 60px); left: 0; position: fixed; top: 60px; -webkit-transition: 1s ease 0.5s; -moz-transition: 1s ease 0.5s; -ms-transition: 1s ease 0.5s; -o-transition: 1s ease 0.5s; transition: 1s ease 0.5s; width: 0; z-index: 10; }
 .fixed-navbar-menu-mobile.active { -webkit-transition: 1s ease 0s; -moz-transition: 1s ease 0s; -ms-transition: 1s ease 0s; -o-transition: 1s ease 0s; transition: 1s ease 0s; width: 240px; }
 .menu-listing-mobile { height: 100%; opacity: 0; overflow-y: auto; padding: 15px; -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; visibility: hidden; z-index: 10; }
 .menu-listing-mobile.active { opacity: 1; visibility: visible; -webkit-transition: 1s ease 0.75s; -moz-transition: 1s ease 0.75s; -ms-transition: 1s ease 0.75s; -o-transition: 1s ease 0.75s; transition: 1s ease 0.75s; }
-.menu-listing-mobile > li { display: block; margin-bottom: 40px; }
+.menu-listing-mobile > li { display: block; margin-bottom: 20px; }
 .menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .menu-listing-mobile > li > a { color: #ffffff; display: block; font: 1.8rem/1 "Quicksand-Regular"; }
 .menu-listing-mobile > li.active > a,
