@@ -281,7 +281,6 @@ textarea.form-control-comment { margin-bottom: 15px; }
 .btn-apply-coupon { margin: 15px 0 0 0; width: 100%; }
 .btn-update-cart { width: 100%; }
 .box-shop-cart-totals-scp > h4 { font-size: 2.4rem; margin-bottom: 15px; }
-.table-shop-cart-totals > tbody > tr > td:first-child { font-family: "Quicksand-SemiBold"; }
 .table-shop-cart-totals > tbody > tr > td:last-child { text-align: left; }
 .table-shop-cart-totals > tbody > tr:nth-last-of-type(2) > td { font-size: 1.8rem; }
 .btn-proceed-to-checkout { background-color: #bc906b; color: #0a0a0a; height: auto; white-space: break-spaces; }
@@ -292,5 +291,20 @@ textarea.form-control-comment { margin-bottom: 15px; }
   /*------- Shop Cart Section Ends -------*/
 
 /*------- Shop Cart Page Ends -------*/
+
+/*------- Order Complete Page Starts -------*/
+
+	/*------- Order Complete Section Starts -------*/
+
+.bg-order-complete-ocp { margin-bottom: 0; padding: 30px 15px 15px; }
+.box-order-complete { padding: 30px; }
+.box-order-complete > img { margin: 0 auto 30px; width: 100px; }
+.box-order-complete > p { margin-bottom: 30px; }
+.track-order-ocp > a { background-color: #bc906b; color: #0a0a0a; }
+.track-order-ocp > a:hover { background-color: #ffffff; }
+
+  /*------- Order Complete Section Ends -------*/
+
+/*------- Order Complete Page Ends -------*/
 
 }
